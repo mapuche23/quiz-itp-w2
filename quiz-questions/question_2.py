@@ -28,7 +28,11 @@ def number_of_customers_per_state(customers):
         'NY': 1
     }
     """
-    # Write your code here
+    my_dict = {}
+    for k, v in customers.items():
+        my_dict[k] = len(v)
+    return my_dict            
+    
     pass
 
 
